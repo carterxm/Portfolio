@@ -1,0 +1,385 @@
+* {font-family: "Oxygen";
+   margin: 0;
+   padding: 0;
+   }
+
+/* Body and html design */
+body { 
+        overflow-x: hidden;
+        }
+
+.background-grey {background-color: #5C604D;
+                  padding-top: 20px;
+                  padding-bottom: 50px;
+                  margin-bottom: -21.5px;}
+
+.background-rose-gold {background-color: #B47978;}
+
+.background-pink {background-image: url(C:/Users/taraflowers/Desktop/Portfolio/img/pink-computer.jpg);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  margin-bottom: -21px;
+                    }
+
+.background-dark-green {background-color: #95BF8F;
+                        margin-bottom: -21.5px; 
+                    }
+
+.background-light-green {background-color: #99D17B;}
+
+/* /* Nav Bar * */
+.nav-bar    {
+             height: 80px;
+             text-align: center;
+             border-bottom: none;
+             }
+
+.nav-bar ul li {display: inline-block;
+                margin-top: 40px; 
+                padding-right: 10px;
+                padding-left: 40px;}
+
+.nav-bar ul li {padding-left: 15px;
+                text-align: center;
+                font-size: 70%;
+                text-transform: uppercase;
+                font-weight: 700;}
+
+.nav-bar ul li a,
+.nav-bar ul li a:hover {font-size: 80%;
+                        text-decoration: none;
+                         font-size: 140%;
+                         position: flex;
+                         padding: 5px;
+                         
+                         }
+
+.nav-bar ul li a:hover {
+       border: 1px solid #fff;
+       transition: 0.2s ease-in;
+       -webkit-transition: 0.2s ease-in;
+       -moz-transition: 0.2s ease-in;
+       -ms-transition: 0.2s ease-in;
+       -o-transition: 0.2s ease-in;
+       border-radius: 5px;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+}
+
+
+.nav-bar ul li a {color: red;}
+
+.nav-bar ul li a:hover:not(.button) {
+                        transition: 0.2s ease-in;
+                        -webkit-transition: 0.2s ease-in;
+                        -moz-transition: 0.2s ease-in;
+                        -ms-transition: 0.2s ease-in;
+                        -o-transition: 0.2s ease-in;
+}
+
+.button {
+         background-color: rgb(221, 189, 189);
+         border-radius: 5px ;
+         -webkit-border-radius: 5px ;
+         -moz-border-radius: 5px ;
+         -ms-border-radius: 5px ;
+         -o-border-radius: 5px ;
+         border: 1px solid rgb(122, 122, 122);
+}
+
+.button:hover {
+              background-color: #555;
+              border: #555;
+              transition: 0.2s ease-in;
+              -webkit-transition: 0.2s ease-in;
+              -moz-transition: 0.2s ease-in;
+              -ms-transition: 0.2s ease-in;
+              -o-transition: 0.2s ease-in;
+              color: rgb(221, 189, 189);
+}
+
+
+/*  */
+
+.intro .row h1 {text-align: left;
+                margin-top: 100px;
+                font-size: 400%;
+               color: #555;
+               margin-left: 40px;
+               letter-spacing: 1px;
+            }
+
+.icon-size {font-size: 200%;}
+
+.intro .row ul {text-align: center;}
+
+.intro .row ul li {display: inline-block;
+                    margin-bottom: 200px;}
+
+.intro .row ul li a {padding: 5px;
+                    }
+
+.ion-logo-google {color: #555;}
+.ion-logo-google:hover {
+                        color: #4285f4;
+                        transition: ease-in 0.2s;
+                        -webkit-transition: ease-in 0.2s;
+                        -moz-transition: ease-in 0.2s;
+                        -ms-transition: ease-in 0.2s;
+                        -o-transition: ease-in 0.2s;
+}
+
+.icon:hover { font-size: ; }
+
+.ion-logo-github {color: #555;}
+
+.ion-logo-github:hover {
+                        color: #4078c0;
+                        transition: ease-in 0.2s;
+                        -webkit-transition: ease-in 0.2s;
+                        -moz-transition: ease-in 0.2s;
+                        -ms-transition: ease-in 0.2s;
+                        -o-transition: ease-in 0.2s;
+}
+
+.ion-logo-codepen {color: #555 }
+.ion-logo-codepen {color: #0ebeff;}
+
+
+.ion-md-at {color:#34a853;  }
+.ion-md-at:hover {color:#34a853;  }
+
+.ion-logo-linkedin {color: #0077b5;  }
+
+/* Projects Showcase */
+
+.btn-pro { margin-top: -50px;
+        padding-bottom: 10px;
+        display: inline-flex;
+        padding-left: 10px;
+        font-size: 120%;
+        opacity: 0;
+        
+        }
+
+.btn-pro:hover {opacity: 0.99;
+               transition: ease-in 0.5s ;
+               -webkit-transition: ease-in 0.5s ;
+               -moz-transition: ease-in 0.5s ;
+               -ms-transition: ease-in 0.5s ;
+               -o-transition: ease-in 0.5s ;
+}
+
+
+
+
+.live {background:#555;
+        
+        margin-right: 50px;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+         -o-border-radius: 5px;
+         text-decoration: none;
+                    }
+
+.live:hover {
+            background-color: #99D17B;
+            transition: ease-in 0.2s;
+            -webkit-transition: ease-in 0.2s;
+            -moz-transition: ease-in 0.2s;
+            -ms-transition: ease-in 0.2s;
+            -o-transition: ease-in 0.2s;
+}
+
+
+
+
+
+
+.code     {background:#555;
+           padding: 5px;
+           border-radius: 5px;
+                     color: #fff;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    text-decoration: none;
+                    }
+.code:hover {background-color: #99D17B;
+        transition: ease-in 0.2s;
+        -webkit-transition: ease-in 0.2s;
+        -moz-transition: ease-in 0.2s;
+        -ms-transition: ease-in 0.2s;
+        -o-transition: ease-in 0.2s;
+}
+.code:visited,
+.live:visited {color: black;}
+
+
+
+.clearfix {zoom: 1;}
+.clearfix:after {content:"-";
+           clear: both;
+           display: block;
+           height: 0;
+           visibility: hidden;
+        }
+
+.section-projects {padding: 0;
+                   width: 95%;
+                   margin-left: 32px;
+                   margin-top: 50px;}
+
+.section-projects h1 
+                      {text-align: center;
+                      font-size: 350%;
+                      color: #95bf8f;
+                      text-transform: uppercase;
+                      letter-spacing: 3px;
+        
+}
+
+h6     {text-align: center;
+        color: #95bf8f;
+        text-transform: uppercase;
+        margin-top: -30px;
+        padding-bottom: 10px;
+
+}
+
+
+.projects-showcase {list-style: none;
+                         width:100%;
+                        }
+
+.projects-showcase li {display: block;
+                       float: left;
+                       width: 25%;}
+
+.project-photo {width: 100%;
+                margin: 0;
+                overflow: hidden;
+                background-color: black;}
+
+.project-photo img  {opacity: 0.7;
+    width: 100%;
+    height: 40%;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;}
+
+.project-photo img:hover {-webkit-transform: scale(1.03);transform: scale(1.03);
+                           opacity: 1; }
+/* Contact Form */
+
+.form-style {
+             margin-left: 35%;
+             margin-top: 200px;
+             border: 1px solid black;
+             padding: 20px;
+             background-color: rgb(241, 156, 156);
+             width: 25%;
+             height: auto;
+             box-shadow: 1px 2px #555;
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+}
+
+     .form-style #title {text-align: center;}
+
+     .form-style .row {padding: 5px;}
+
+     label {margin: 5px;}
+
+     .input { margin-top: -15px;
+             float: right;
+          }
+
+     .input-select {margin-right: 250px;
+
+     }
+    .label-select {margin-left: -5px;
+                   margin-top: -55px;}
+    /* .label-turn {  } */
+    .icon-big {font-size: 3000%;
+               
+}
+
+.container {margin-top: 25%;
+             margin-left: 2%;
+             width: 500px;
+             height: auto;}
+
+.label-comment {padding-bottom: 5px;}
+
+.row .button-sub {color: orange;
+                text-align: center;}
+
+.button-submit,
+.button-submit:hover {margin-left: 40%;
+                      color: #555;
+                      font-size: 120%;
+                      text-align: center;
+                       border-radius: 5px;
+                       padding: 5px;}
+
+/* footer */
+
+.foot {background-color: orange;}
+
+footer ul li  {display: inline-block;
+               float: right;
+               margin-right: 10px;
+        }
+
+     
+
+/* 
+.section-meals {padding: 0;}
+
+.meals-showcase {list-style: none;
+                 width:100%;}
+
+.meals-showcase li {display: block;
+                    float: left;
+                    width: 25%;}
+.meal-photo {width: 100%;
+             margin: 0;
+             overflow: hidden;
+             background-color: black;}
+
+.meal-photo img {opacity: 0.7;
+                 width: 100%;
+                 height: auto;
+                 -webkit-transform: scale(1.15);
+                         transform: scale(1.15);
+                 -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+                 transition: opacity 0.5s, -webkit-transform 0.5s;
+                 transition: transform 0.5s, opacity 0.5s;
+                 transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s; }
+
+.meal-photo img:hover {-webkit-transform: scale(1.03);transform: scale(1.03);
+                       opacity: 1; }
+
+
+
+*/
+
+
+
+
+
